@@ -20,3 +20,5 @@ const NoteList = props => {
 };
 
 export default NoteList;
+
+// [...prevState.allNotes, newNote]

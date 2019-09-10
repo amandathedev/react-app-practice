@@ -29,12 +29,8 @@ class NoteForm extends Component {
     return (
       <div>
         <h1>hello</h1>
-        <input onChange={this.handlechange} type="text" name="title">
-          Title
-        </input>
-        <input onChange={this.handlechange} type="textarea" name="body">
-          Body
-        </input>
+        <input onChange={this.handlechange} type="text" name="title"></input>
+        <input onChange={this.handlechange} type="textarea" name="body"></input>
         <input type="submit"></input>
       </div>
     );
